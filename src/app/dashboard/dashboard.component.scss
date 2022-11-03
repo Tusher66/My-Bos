@@ -1,0 +1,110 @@
+.body {
+    width: calc(100% - 5rem);
+    height: 100vh;
+    margin-left: 5rem;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    transition: all .5s ease;
+    background-color: #f4f7fa;
+    padding: 3rem;    
+}
+
+.body-trimmed{
+    width: calc(100% - 16.5625rem);
+    margin-left: 16.5625rem;
+}
+
+.body.md.screen{
+    width: calc(100% - 5rem);
+    margin-left: 5rem;
+}
+
+input[type=text]{
+    width: 81%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+    box-sizing: border-box;
+    border-left: none;
+  }
+  input[type=text1]{
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 4px 4px 0px;
+    box-sizing: border-box;
+    border-left: none;
+  }
+
+  input[type=button]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px 8px 8px 0px;
+    box-sizing: border-box;
+    height: 42px;
+    border-right: none;
+  }
+
+  small .e-calendar {
+    border-spacing: 0;
+    max-width: 347px;
+    min-width: 240px;
+    padding: 0;}
+
+    .topCom{
+      align-items: center;
+      justify-content: center
+      ;display: flex;
+      font-weight: 400;
+      font-size: 10px;
+      color:#FFFF;
+      border-right: 1px solid #30506D;
+      padding-right: 7px;
+    }
+    .topLob{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-weight: 400;
+      font-size: 10px;color:#FFFF;
+    }
+
+    .topImg{
+      width: 14px;
+      height: 11px;
+      
+      margin-right: 8px;
+    }
+
+    .sidNav{
+      width: 100%;
+      height: 100%;
+      background-color: #00274B;
+      border-radius: 8px;
+    }
+
+    .carRow1 {
+      background: #FFFFFF;
+      border: 1px solid #DFE3E9;
+      border-radius: 8px;
+      padding: 0px 6px 0px 12px;
+      box-shadow: #D3EAF9;
+      overflow-y: scroll;
+    }
+
+    .matMan{
+      width: 19px;
+      height: 17px;
+      margin-top: 1px;
+      margin-right: 8px;
+    }

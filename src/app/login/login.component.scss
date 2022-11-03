@@ -1,0 +1,54 @@
+// .bg {
+//     height: 100%;
+//     // background-image: url(/assets/Login Page/bag.png);
+//     background-image: url(/assets/LoginPage/bag.png);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+
+   
+    
+// }
+
+.bg {
+    background-image: url(/assets/LoginPage/bag.png);
+    height: 1080px;
+    // height: 100%;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    // opacity: 0.5;
+    // background-color: black;
+    // opacity: 0.5;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4FADEA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+  }
